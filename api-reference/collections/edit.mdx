@@ -1,0 +1,19 @@
+---
+title: "Edit collection"
+api: "PATCH https://staging-api.aigmented.io/v1/collections/{collectionId}"
+description: "Edit existing collection"
+---
+
+### Body
+
+<ParamField body="name" type="string">
+  Name of collection
+</ParamField>
+
+<ParamField body="prompt" type="string">
+  Prompt to use in collection
+</ParamField>
+
+<ParamField body="documentsIds" type="array">
+  Id of documents to include in collection
+</ParamField>

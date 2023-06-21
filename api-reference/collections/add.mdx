@@ -1,0 +1,19 @@
+---
+title: "Add collection"
+api: "POST https://staging-api.aigmented.io/v1/collections/add"
+description: "Add a new collection"
+---
+
+### Body
+
+<ParamField body="name" type="string">
+  Name of collection
+</ParamField>
+
+<ParamField body="prompt" type="string">
+  Prompt to use in collection
+</ParamField>
+
+<ParamField body="documentsIds" type="array">
+  Id of documents to include in collection
+</ParamField>

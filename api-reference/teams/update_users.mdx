@@ -1,0 +1,33 @@
+---
+title: "Update team members"
+api: "POST https://staging-api.aigmented.io/v1/teams/{teamId}"
+description: "Update team members in team"
+---
+
+### Body
+
+<ParamField body="userIds" type="array">
+  Ids of users to add
+</ParamField>
+
+### Response
+
+<ResponseField name="array">
+
+<Expandable title="objects">
+
+<ResponseField name="id" type="number">
+  Id of the team
+</ResponseField>
+
+<ResponseField name="name" type="string">
+  Name of the team
+</ResponseField>
+
+<ResponseField name="users" type="array">
+  Id of users in the team
+</ResponseField>
+
+</Expandable>
+
+</ResponseField>

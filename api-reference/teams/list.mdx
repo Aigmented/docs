@@ -1,0 +1,27 @@
+---
+title: "List of teams"
+api: "GET https://staging-api.aigmented.io/v1/teams"
+description: "Get list of teams"
+---
+
+### Response
+
+<ResponseField name="array">
+
+<Expandable title="objects">
+
+<ResponseField name="id" type="number">
+  Id of the team
+</ResponseField>
+
+<ResponseField name="name" type="string">
+  Name of the team
+</ResponseField>
+
+<ResponseField name="users" type="array">
+  Id of users in the team
+</ResponseField>
+
+</Expandable>
+
+</ResponseField>

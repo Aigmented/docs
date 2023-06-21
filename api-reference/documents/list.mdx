@@ -1,0 +1,35 @@
+---
+title: "List of documents"
+api: "GET https://staging-api.aigmented.io/v1/documents"
+description: "Get list of documents"
+---
+
+### Response
+
+<ResponseField name="documents array">
+
+<Expandable title="objects">
+
+<ResponseField name="id" type="number">
+  Id of document
+</ResponseField>
+
+<ResponseField name="name" type="string">
+  Name of document
+</ResponseField>
+
+<ResponseField name="file" type="string">
+  Path to document
+</ResponseField>
+
+<ResponseField name="created_at" type="string">
+  Document created at
+</ResponseField>
+
+<ResponseField name="updated_at" type="string">
+  Document updated at
+</ResponseField>
+
+</Expandable>
+
+</ResponseField>

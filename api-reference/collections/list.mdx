@@ -1,0 +1,31 @@
+---
+title: "List of collections"
+api: "GET https://staging-api.aigmented.io/v1/collections"
+description: "Get list of collections"
+---
+
+### Response
+
+<ResponseField name="collections array">
+
+<Expandable title="objects">
+
+<ResponseField name="id" type="number">
+  Id of collection
+</ResponseField>
+
+<ResponseField name="name" type="string">
+  Name of collection
+</ResponseField>
+
+<ResponseField name="prompt" type="string">
+  Prompt used by a collection
+</ResponseField>
+
+<ResponseField name="documents" type="array">
+  Array of documents
+</ResponseField>
+
+</Expandable>
+
+</ResponseField>

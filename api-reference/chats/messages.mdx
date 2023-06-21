@@ -1,0 +1,35 @@
+---
+title: "Get chat messages"
+api: "GET https://staging-api.aigmented.io/v1/chat/{collectionId}"
+description: "Get chat messages for selected collectionId"
+---
+
+### Response
+
+<ResponseField name="messages array">
+
+<Expandable title="objects">
+
+<ResponseField name="id" type="number">
+  Id of message
+</ResponseField>
+
+<ResponseField name="message" type="string">
+  Message
+</ResponseField>
+
+<ResponseField name="answer" type="boolean">
+  Tells if message is written by bot
+</ResponseField>
+
+<ResponseField name="created_at" type="string">
+  Message created at
+</ResponseField>
+
+<ResponseField name="updated_at" type="string">
+  Message updated at
+</ResponseField>
+
+</Expandable>
+
+</ResponseField>

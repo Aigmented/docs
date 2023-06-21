@@ -41,12 +41,42 @@
       "pages": ["api-reference/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Authorization",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/auth/login",
+        "api-reference/auth/register"
+      ]
+    },
+    {
+      "group": "Teams",
+      "pages": [
+        "api-reference/teams/list",
+        "api-reference/teams/create",
+        "api-reference/teams/update_users"
+      ]
+    },
+    {
+      "group": "Documents",
+      "pages": [
+        "api-reference/documents/list",
+        "api-reference/documents/upload"
+      ]
+    },
+    {
+      "group": "Collections",
+      "pages": [
+        "api-reference/collections/add",
+        "api-reference/collections/list",
+        "api-reference/collections/edit",
+        "api-reference/collections/delete"
+      ]
+    },
+    {
+      "group": "Chats",
+      "pages": [
+        "api-reference/chats/ask",
+        "api-reference/chats/messages",
+        "api-reference/chats/flush"
       ]
     }
   ],
